@@ -24,6 +24,11 @@ public class Triangulo {
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
+		/*
+		double areaX = x.calcularArea();	
+		double areaY = y.calcularArea();
+		*/	
+		
 		System.out.printf("Triagle X Area: %.4f\n ", x.calcularArea());
 		System.out.printf("Triagle Y Area: %.4f\n ", y.calcularArea());
 		
